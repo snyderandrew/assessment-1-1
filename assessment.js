@@ -18,9 +18,9 @@
  * What is the difference between a method and a function?
  * 
  * Answer Type: String (Add Answer Between Quotes)
- */
+ */ 
 
-""
+"a method is something you can use in a function, a function actually runs the method"
 
 /**
  * QUESTION #2 -
@@ -34,7 +34,7 @@ for (let i = 0; i = timesToLoop; i++) {
     console.log('I am looping!');
 }
 
-""
+"i is set to = instead of < which would make the function stop when it hits 15"
 
 /**
  * QUESTION #3 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"if, else"
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"to create a for loop, to make a grid or something"
 
 /**
  * QUESTION #5 -
@@ -67,7 +67,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"C"
 
 /**
  * QUESTION #6 -
@@ -76,7 +76,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"document object management"
 
 /**
  * QUESTION #7 -
@@ -95,7 +95,7 @@ function testQuestionSeven() {
     }
 }
 
-""
+"Yes! will show up in the console log"
 
 /**
  * QUESTION #8 -
@@ -105,7 +105,7 @@ function testQuestionSeven() {
  * Hint: Think of their general TYPE....
  */
 
-""
+"They are integers"
 
 /**
  * QUESTION #9 -
@@ -114,7 +114,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"to create an immediate result when something is clicked"
 
 /**
  * QUESTION #10 -
@@ -135,7 +135,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-""
+"The answer is french fries!"
 
 /**
  * QUESTION #11 -
@@ -145,6 +145,14 @@ switch (value) {
  */
 
 function createGrid(width, height) {
+    for (let i = 0; i < 10; i++) {
+        let row = document.createElement('div');
+
+        for (let j = 0; j < 10; j++) {
+            let square = document.createElement('div');
+            square.classListadd('square');
+        }
+    }
 
 }
 
@@ -155,7 +163,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"a local variable is something you create, like pamConfig, a global variable is something that is always set for all developers"
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
@@ -169,4 +177,4 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"Post"
