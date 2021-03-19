@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */ 
 
-"a method is something you can use in a function, a function actually runs the method"
+"A function is a reusable block of code, a method is a block of code that is related to an object"
 
 /**
  * QUESTION #2 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"if, else"
+"Ternary"
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"to create a for loop, to make a grid or something"
+"To break large blocks of code into smaller functions, you can reuse them"
 
 /**
  * QUESTION #5 -
@@ -95,7 +95,7 @@ function testQuestionSeven() {
     }
 }
 
-"Yes! will show up in the console log"
+"No!"
 
 /**
  * QUESTION #8 -
@@ -105,7 +105,7 @@ function testQuestionSeven() {
  * Hint: Think of their general TYPE....
  */
 
-"They are integers"
+"Values"
 
 /**
  * QUESTION #9 -
@@ -114,7 +114,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"to create an immediate result when something is clicked"
+"To make sure your variables arent accessed somewhere else"
 
 /**
  * QUESTION #10 -
@@ -135,7 +135,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-"The answer is french fries!"
+"We are out of food..."
 
 /**
  * QUESTION #11 -
@@ -163,7 +163,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"a local variable is something you create, like pamConfig, a global variable is something that is always set for all developers"
+"A global variable is accessible everywhere, a local variable can only be used by the scope"
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
